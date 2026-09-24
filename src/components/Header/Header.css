@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--borda);
+  
+  /* --- NOVAS PROPRIEDADES PARA FIXAR O HEADER --- */
+  position: sticky;
+  top: 0;
+  z-index: 100; /* Garante que o header fique sempre por cima das fotos e cards */
+  background-color: var(--preto); /* Fundo sólido para o texto do site não "vazar" por trás ao rolar a página */
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.logo span {
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  color: var(--cinza);
+}
+
+.nav-desktop a {
+  color: var(--branco);
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-desktop a:hover {
+  color: var(--dourado);
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0; /* Diminui um pouco o padding no telemóvel para ocupar menos espaço da tela ao rolar */
+  }
+  
+  .nav-desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+}

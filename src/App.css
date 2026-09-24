@@ -1,0 +1,21 @@
+/* --- ESTILOS EXCLUSIVOS DO APP (Ex: Seção Sobre) --- */
+.sobre-section {
+  padding: 4rem 0;
+  border-top: 1px solid var(--borda);
+  text-align: center;
+}
+
+.sobre-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.sobre-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--dourado);
+}
+
+.sobre-content p {
+  color: var(--cinza);
+}

@@ -59,13 +59,14 @@
 }
 
 .btn-add {
-  background-color: var(--dourado);
-  color: var(--preto);
+  background-color: var(--preto);
+  color: var(--dourado);
   border: none;
+  padding-bottom: 5px;
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  font-size: 1.25rem;
+  font-size: 2.25rem;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -74,5 +75,6 @@
 }
 
 .btn-add:hover { 
-  background-color: var(--dourado-hover); 
+  background-color: var(--dourado); 
+  color: var(--preto);
 }

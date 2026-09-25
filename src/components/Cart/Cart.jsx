@@ -26,7 +26,7 @@ function Cart({ cartItems, onClose, onUpdateQuantity, onClearCart }) {
   const enviarPedidoWhatsApp = (e) => {
     e.preventDefault();
 
-    const numeroWhatsApp = "+351969879718"; 
+    const numeroWhatsApp = "+351000000000"; 
 
     let texto = `*NOVO PEDIDO - DOM HAMBÚRGUERES* 🍔\n\n`;
     texto += `*Cliente:* ${formData.nome} ${formData.sobrenome}\n`;

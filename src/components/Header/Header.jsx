@@ -5,8 +5,8 @@ function Header({ cartCount, onOpenCart }) {
   return (
     <header className="header">
       <div className="logo">
-        <h1>👑 DOM</h1>
-        <span>HAMBÚRGUERES</span>
+        <h1>👑 LORD</h1>
+        <span>DO HAMBÚRGUER</span>
       </div>
       
       <nav className="nav-desktop">

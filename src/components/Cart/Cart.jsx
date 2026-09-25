@@ -122,7 +122,6 @@ function Cart({ cartItems, onClose, onUpdateQuantity, onClearCart }) {
                   <textarea name="endereco" rows="2" required placeholder="Rua, Número, Porta, Freguesia..." value={formData.endereco} onChange={handleInputChange}></textarea>
                 </div>
 
-                {/* 3. Novo Campo de Seleção do Pagamento */}
                 <div className="form-group">
                   <label>Método de Pagamento *</label>
                   <select name="metodoPagamento" required value={formData.metodoPagamento} onChange={handleInputChange}>

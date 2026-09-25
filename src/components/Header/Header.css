@@ -4,12 +4,10 @@
   align-items: center;
   padding: 1.5rem 0;
   border-bottom: 1px solid var(--borda);
-  
-  /* --- NOVAS PROPRIEDADES PARA FIXAR O HEADER --- */
   position: sticky;
   top: 0;
-  z-index: 100; /* Garante que o header fique sempre por cima das fotos e cards */
-  background-color: var(--preto); /* Fundo sólido para o texto do site não "vazar" por trás ao rolar a página */
+  z-index: 100; 
+  background-color: var(--preto);
 }
 
 .logo {
@@ -43,7 +41,7 @@
   .header {
     flex-direction: column;
     gap: 1rem;
-    padding: 1rem 0; /* Diminui um pouco o padding no telemóvel para ocupar menos espaço da tela ao rolar */
+    padding: 1rem 0;
   }
   
   .nav-desktop {

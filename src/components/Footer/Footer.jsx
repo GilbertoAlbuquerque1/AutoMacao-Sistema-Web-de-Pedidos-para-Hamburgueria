@@ -6,8 +6,8 @@ function Footer() {
     <footer id="contato" className="footer">
       <div className="footer-content">
         <div className="footer-logo">
-          <h2>👑 DOM</h2>
-          <span>HAMBÚRGUERES</span>
+          <h2>👑 LORD</h2>
+          <span>DO HAMBÚRGUER</span>
           <p>O verdadeiro sabor do fogo.</p>
         </div>
         
@@ -27,7 +27,7 @@ function Footer() {
       </div>
       
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} DOM Hambúrgueres. Todos os direitos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} LORD DO HAMBÚRGUER. Todos os direitos reservados.</p>
       </div>
     </footer>
   );

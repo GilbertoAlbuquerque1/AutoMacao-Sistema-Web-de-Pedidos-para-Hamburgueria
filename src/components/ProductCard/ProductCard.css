@@ -59,7 +59,7 @@
 }
 
 .btn-add {
-  background-color: var(--preto);
+  background-color: var(--preto-secundario);
   color: var(--dourado);
   border: none;
   padding-bottom: 5px;
